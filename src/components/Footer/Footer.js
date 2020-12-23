@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer">
             <p>© 2020 Hulu clone! No rights reserved - this is a demo!</p>
             <p>Privacy · Terms · Sitemap · Company Details</p>
-            <p>Source code: <a href={"https://www.google.com"}>Github</a></p>
+            <p>Source code: <a href={"https://github.com/ashish-rama/Hulu-Clone-JavaScript"}>Github</a></p>
         </div>
     )
 }
