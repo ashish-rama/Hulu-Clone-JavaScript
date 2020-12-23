@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-export default {
+export const obj = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`, 
     fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`, 
     fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`, 

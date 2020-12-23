@@ -4,11 +4,11 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Results from './components/Results/Results';
-import requests from './requests';
+import { obj } from './requests';
 
 function App() {
 
-  const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
+  const [selectedOption, setSelectedOption] = useState(obj.fetchTrending);
 
   return (
     <div className="app">
